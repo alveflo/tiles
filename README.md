@@ -37,19 +37,30 @@ Check out the example live [here](http://jambler.se/demos/tiles/)!
 	  	<style>
 	  		body {
 			  background-color: #fff;
-			  padding: 100px;
 			}
+
+			#container {
+				height: auto;
+				width: 315px;
+				margin-left:auto;
+				margin-right: auto;
+				margin-top: 100px;
+			}
+
 	  	</style>
 	</head>
 	<body>
-
-		  <button class="tile scale-dec">			scale decrease</div>
-		  <button class="tile scale-inc">			scale increase</div>
-		  <button class="tile rotate">				rotate</div>
-		  <button class="tile fade">				fade</div>
-		  <button class="tile bounceIn scale-dec">	bounce in + scale</div>
-		  <button class="tile highlight">			highlight</div>
-
+		<div id="container">
+			<center>
+		  	  <img src="tiles_img.png" class="bounceIn"><br>
+			  <button class="tile scale-dec">			scale decrease</button>
+			  <button class="tile scale-inc">			scale increase</button>
+			  <button class="tile rotate">				rotate</button>
+			  <button class="tile fade">				fade</button>
+			  <button class="tile bounceIn scale-dec">	bounce in + scale</button>
+			  <button class="tile highlight">			highlight</button>
+			</center>
+		</div>
 	</body>
 </html>
 ```
