@@ -41,7 +41,7 @@ Available classes:
 ##### Rotating
 With `.rotate<ANGLE>` you rotate the parent element by the given angle. The angle is given in degrees: 
 
-`.rotate90` *-> Rotates parent by 90 degrees.*
+`.rotate90` *-> Rotates parent by 90 degrees.* and `.rotate-70` *-> Rotates parent by -70 degrees.*
 
 Avalable classes:
 
