@@ -108,7 +108,7 @@ Available classes:
 `.tile` - A basic tile element
 
 ## Example
-Check out a live example of some tiles [here](http://jambler.se/demos/tiles/). Also, all available tile-classes are visualized [here](http://jambler.se/demos/tiles/)!
+Check out a live example of some tiles [here](http://jambler.se/demos/tiles/). Also, all available tile-classes are visualized [here](http://www.jambler.se/demos/tiles/demo.html)!
 ```html
 <!DOCTYPE html>
 <html>
