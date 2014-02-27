@@ -43,8 +43,62 @@ Avalable classes:
 
 
 `.rotate10`
+`.rotate20`
+`.rotate30`
+`.rotate40`
+`.rotate50`
+`.rotate60`
+`.rotate70`
+`.rotate80`
+`.rotate90`
+`.rotate100`
+`.rotate110`
+`.rotate120`
+`.rotate130`
+`.rotate140`
+`.rotate150`
+`.rotate160`
+`.rotate170`
+`.rotate180`
+ 
+`.rotate-10`
+`.rotate-20`
+`.rotate-30`
+`.rotate-40`
+`.rotate-50`
+`.rotate-60`
+`.rotate-70`
+`.rotate-80`
+`.rotate-90`
+`.rotate-100`
+`.rotate-110`
+`.rotate-120`
+`.rotate-130`
+`.rotate-140`
+`.rotate-150`
+`.rotate-160`
+`.rotate-170`
+`.rotate-180`
 
-`.fade` - Fades out the parent element
+###### Fading
+With `.fade<VALUE>` you fade the parent element with the given value. The value is given in percent: fade90 -> Fades parent to 10% visibility
+
+Note that the value is inverted corresponding to the opacity parameter!
+
+Available classes:
+
+
+`.fade90`
+`.fade80`
+`.fade70`
+`.fade60`
+`.fade50`
+`.fade40`
+`.fade30`
+`.fade20`
+`.fade10`
+
+###### Highlighting
 
 `.highlight` - Inverts all colors in the parent element
 #### Other
