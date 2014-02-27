@@ -38,6 +38,7 @@ Available classes:
 `.scale170`
 `.scale180`
 `.scale190`
+`.scale200`
 ##### Rotating
 With `.rotate<ANGLE>` you rotate the parent element by the given angle. The angle is given in degrees: 
 
