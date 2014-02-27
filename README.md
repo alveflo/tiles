@@ -14,7 +14,9 @@ To use this library simply put the following snippet within the `<head>` tag of 
 `.bounceIn` - Performs a bouncing effect on the parent element
 #### Hover functionality
 ##### Scaling
-With `.scale<VALUE>` you increase/decrease the size of the parent element. The value is given in percent: scale10 -> Scale parent to 10% of original size. 
+With `.scale<VALUE>` you increase/decrease the size of the parent element. The value is given in percent: 
+
+`.scale10` *-> Scale parent to 10% of original size.*
 
 Available classes:
 
@@ -37,7 +39,9 @@ Available classes:
 `.scale180`
 `.scale190`
 ##### Rotating
-With `.rotate<ANGLE>` you rotate the parent element by the given angle. The angle is given in degrees: rotate90 -> Rotates parent by 90 degrees.
+With `.rotate<ANGLE>` you rotate the parent element by the given angle. The angle is given in degrees: 
+
+`.rotate90` *-> Rotates parent by 90 degrees.*
 
 Avalable classes:
 
@@ -80,13 +84,13 @@ Avalable classes:
 `.rotate-170`
 `.rotate-180`
 
-###### Fading
-With `.fade<VALUE>` you fade the parent element with the given value. The value is given in percent: fade90 -> Fades parent to 10% visibility
+##### Fading
+With `.fade<VALUE>` you fade the parent element with the given value. The value is given in percent: 
 
-Note that the value is inverted corresponding to the opacity parameter!
+`.fade90` *-> Fades parent to 10% visibility*
+*Note that the value is inverted corresponding to the opacity parameter!*
 
 Available classes:
-
 
 `.fade90`
 `.fade80`
@@ -99,13 +103,12 @@ Available classes:
 `.fade10`
 
 ###### Highlighting
-
 `.highlight` - Inverts all colors in the parent element
 #### Other
 `.tile` - A basic tile element
 
 ## Example
-Check out the example live [here](http://jambler.se/demos/tiles/)!
+Check out a live example of some tiles [here](http://jambler.se/demos/tiles/). Also, all available tile-classes are visualized [here](http://jambler.se/demos/tiles/)!
 ```html
 <!DOCTYPE html>
 <html>
@@ -131,13 +134,21 @@ Check out the example live [here](http://jambler.se/demos/tiles/)!
 	<body>
 		<div id="container">
 			<center>
+			  <!-- Bouncing effect to img-tag below -->
 		  	  <img src="tiles_img.png" class="bounceIn"><br>
-			  <button class="tile scale-dec">			scale decrease</button>
-			  <button class="tile scale-inc">			scale increase</button>
-			  <button class="tile rotate">				rotate</button>
-			  <button class="tile fade">				fade</button>
-			  <button class="tile bounceIn scale-dec">	bounce in + scale</button>
-			  <button class="tile highlight">			highlight</button>
+			  <!-- Scale to 80% of original size -->
+			  <button class="tile scale80">					scale80</button>
+			  <!-- Scale to 120% of original size -->
+			  <button class="tile scale120">				scale120</button>
+			  <!-- Rotate by 90 degrees -->
+			  <button class="tile rotate90">				rotate90</button>
+			  <!-- 100% fade (no visibility) -->
+			  <button class="tile fade100">					fade100</button>
+			  <!-- Check this out! 
+				   Scale to 30% of original size AND 80% fade! -->
+			  <button class="tile scale30 fade80">	scale30 + fade80</button>
+			  <!-- Highlighting effect -->
+			  <button class="tile highlight">				highlight</button>
 			</center>
 		</div>
 	</body>
