@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!--		<link href="https://rawgithub.com/victoralveflo/tiles/master/tiles.css" 
+			rel="stylesheet" 
+	  		media="screen">
+	  	<style>-->
+		<link href="tiles.css" 
+			rel="stylesheet" 
+	  		media="screen">
+	  	<style>
+	  		body {
+			  background-color: #fff;
+			}
+
+			#container {
+				height: auto;
+				width: 550px;
+				margin-left:auto;
+				margin-right: auto;
+				margin-top: 100px;
+			}
+
+	  	</style>
+	</head>
+	<body>
+		<div id="container">
+			<center>
+		  	  <img src="tiles_img.png" class="bounceIn"><br>
+			  <h3>Scale</h3><hr><br>
+			  <script>
+				var i;
+				for(i=1;i<=20;i++)
+				{
+					if (i != 10)
+						document.write('<button class="tile scale' + i*10 + '">scale' + i*10 + '</button>');
+				}
+			  </script>
+			  <h3>Rotate</h3><hr><br>		  
+			  <script>
+				var i;
+				for(i=1;i<=18;i++)
+				{
+						document.write('<button class="tile rotate' + i*10 + '">rotate' + i*10 + '</button>');
+				}
+				for(i=1;i<=18;i++)
+				{
+						document.write('<button class="tile rotate' + i*-10 + '">rotate' + i*-10 + '</button>');
+				}
+			  </script>
+			  <h3>Faders</h3><hr><br>		  
+			  <script>
+				var i;
+				for(i=0;i<=9;i++)
+				{
+						document.write('<button class="tile fade' + (100-i*10) + '">fade' + (100-i*10) + '</button>');
+				}
+			  </script>
+			  <h3>Highlighter</h3><hr><br>		  
+			  <button class="tile highlight">			highlight</button>
+			</center>
+		</div>
+	</body>
+</html>

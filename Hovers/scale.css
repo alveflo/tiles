@@ -1,0 +1,133 @@
+.scale200:hover
+{
+  -webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	transform: scale(2);
+}
+
+.scale190:hover
+{
+  -webkit-transform: scale(1.9);
+	-moz-transform: scale(1.9);
+	transform: scale(1.9);
+}
+
+.scale180:hover
+{
+  -webkit-transform: scale(1.8);
+	-moz-transform: scale(1.8);
+	transform: scale(1.8);
+}
+
+.scale170:hover
+{
+  -webkit-transform: scale(1.7);
+	-moz-transform: scale(1.7);
+	transform: scale(1.7);
+}
+
+.scale160:hover
+{
+  -webkit-transform: scale(1.6);
+	-moz-transform: scale(1.6);
+	transform: scale(1.6);
+}
+
+.scale150:hover
+{
+  -webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.scale140:hover
+{
+  -webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+.scale130:hover
+{
+  -webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.scale120:hover
+{
+  -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.scale110:hover
+{
+  -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.scale90:hover
+{
+  -webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.scale80:hover
+{
+  -webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.scale70:hover
+{
+  -webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.scale60:hover
+{
+  -webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.scale50:hover
+{
+  -webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.scale40:hover
+{
+  -webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.scale30:hover
+{
+  -webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.scale20:hover
+{
+  -webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}
+
+.scale10:hover
+{
+  -webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
+	transform: scale(0.1);
+}
+

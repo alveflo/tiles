@@ -1,0 +1,30 @@
+.fade100:hover {
+	opacity: 0.0;
+}
+.fade90:hover {
+	opacity: 0.1;
+}
+.fade80:hover {
+	opacity: 0.2;
+}
+.fade70:hover {
+	opacity: 0.3;
+}
+.fade60:hover {
+	opacity: 0.4;
+}
+.fade50:hover {
+	opacity: 0.5;
+}
+.fade40:hover {
+	opacity: 0.6;
+}
+.fade30:hover {
+	opacity: 0.7;
+}
+.fade20:hover {
+	opacity: 0.8;
+}
+.fade10:hover {
+	opacity: 0.9;
+}

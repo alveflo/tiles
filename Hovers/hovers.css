@@ -1,28 +1,6 @@
-.scale-dec:hover
-{
-  -webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
-	transform: scale(0.5);
-}
-
-.scale-inc:hover
-{
-  -webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	transform: scale(1.5);
-}
-
-.rotate:hover
-{
-  -webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-}
-
-.fade:hover
-{
-  opacity:0;
-}
+@import url("scale.css");
+@import url("rotate.css");
+@import url("faders.css");
 
 .highlight:hover {
   -webkit-filter: invert(100%);
