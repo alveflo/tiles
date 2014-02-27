@@ -13,11 +13,36 @@ To use this library simply put the following snippet within the `<head>` tag of 
 #### "Document load" functionality
 `.bounceIn` - Performs a bouncing effect on the parent element
 #### Hover functionality
-`.scale-dec` - Decreasing the size of the parent element
+##### Scaling
+With `.scale<VALUE>` you increase/decrease the size of the parent element. The value is given in percent: scale10 -> Scale parent to 10% of original size. 
 
-`.scale-inc` - Increasing the size of the parent element
+Available classes:
 
-`.rotate` - Rotates the parent element by 90 degrees
+`.scale10`
+`.scale20`
+`.scale30`
+`.scale40`
+`.scale50`
+`.scale60`
+`.scale70`
+`.scale80`
+`.scale90`
+`.scale110`
+`.scale120`
+`.scale130`
+`.scale140`
+`.scale150`
+`.scale160`
+`.scale170`
+`.scale180`
+`.scale190`
+##### Rotating
+With `.rotate<ANGLE>` you rotate the parent element by the given angle. The angle is given in degrees: rotate90 -> Rotates parent by 90 degrees.
+
+Avalable classes:
+
+
+`.rotate10`
 
 `.fade` - Fades out the parent element
 
