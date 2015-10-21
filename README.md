@@ -1,5 +1,5 @@
 
-![Tiles](http://jambler.se/demos/tiles/tiles_img.png)
+![Tiles](https://raw.githubusercontent.com/victorzki/tiles/master/tiles_img.png)
 #####Discontinued.
 ## What's this?
 Tiles is a CSS3 animation library that makes it really easy to attach animation to document object models.
